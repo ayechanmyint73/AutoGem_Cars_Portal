@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lora", serif;
+  text-decoration: none;
+  list-style-type: none;
+  scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(240, 237, 234);
+}
+
+:root{
+    --main-color: rgb(255, 102, 0);
+    --text-color: rgb(19, 19, 45);
+    --promotion-color: rgb(230, 173, 136);
+}
+
+/* navbar starts */
+.navbar{
+            background-color: white;
+        }
+
+        .navbar-toggler{
+            background-color: var(--main-color);
+        }
+
+        .navbar-toggler-icon{
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
+
+        .navbar-brand{
+            font-weight: bold;
+            font-size: larger;
+            margin-right: 30px;
+            color: var(--main-color);
+        }
+
+        .navbar-brand img{
+            width: 45px;
+            height: 45px;
+            align-items: center;
+            margin-right: 10px;
+        }
+
+        .navbar-nav{
+            column-gap: 45px;
+        }
+
+        .navbar-nav li a{
+            color: var(--text-color);
+        }
+
+        .navbar-nav a:hover{
+            color: var(--main-color);
+        }
+
+        .dropdown{
+            margin-right: 160px;
+            border: none;
+        }
+
+        .dropdown .dropdown-toggle{
+            color: black;
+        }
+
+        .dropdown .dropdown-toggle:hover{
+            color: var(--main-color);
+        }
+
+        .fa-user-circle{
+            margin-right: 10px;
+        }
+
+        .dropdown-menu{
+            margin-top: 10px;
+        }
+
+        .dropdown-item{
+            padding: 10px;
+        }
+
+        .dropdown-menu .loginbtn{
+            margin: 15px 10px;
+            padding: 10px;
+            background-color: var(--main-color);
+            color: white;
+            width: 260px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .dropdown-item-text{
+            font-size: 15px;
+        }
+
+        .fa-user, .fa-car{
+            margin: 10px 15px;
+        }
+/* navbar ends */
+
+
+/* cover image starts */
+
+
+.card-img-overlay{
+    top: 20%;
+}
+
+.coverbtn{
+    background-color: var(--main-color);
+    border: none;
+    padding: 10px;
+}
+
+/* how does it work starts */
+.works{
+    margin-top: 35px;
+    margin-bottom: 60px;
+}
+
+.works_title{
+    text-align: center;
+    padding: 15px;
+}
+
+.works_no{
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.popular_cars{
+    align-items: center;
+}
+
+.popular_cars_container{
+    margin-top: 45px;
+}
+
+/* popular at AutoGem starts */
+.popularbtn{
+          width: 80%;
+          font-size: 17px;
+          padding: 2px;
+          margin-top: 5px;
+          margin-bottom: 10px;
+          background-color: var(--main-color);
+          border: none;
+        }
+
+/* card promo starts */
+.card_promo{
+    width: 100%;
+    height: 150px;
+    background-color: var(--main-color);
+    margin-top: 15px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.secure_card{
+    text-align: justify;
+}
+
+.secure_card .fa-solid{
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+}
+
+.secure_card h5{
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+.secure_card p{
+    color: var(--text-color);
+}
+
+/* shop with us starts */
+.shops{
+    margin-top: 40px;
+    padding: 20px 10px;
+}
+
+/* promotion card starts */
+.promotion_card{
+    margin: 100px 0px;
+}
+
+.promotionbtn{
+    padding: 10px 5px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--main-color);
+}
+
+.promotion_info{
+    background-color: var(--promotion-color);
+}
+
+.title{
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+/* footer starts */
+.icons{
+    padding: 10px;
+}
